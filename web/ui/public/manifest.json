@@ -1,0 +1,16 @@
+{
+  "name": "MemeGuardian AI",
+  "short_name": "MemeGuard",
+  "description": "Multimodal offensive meme detection",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#4f8cff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

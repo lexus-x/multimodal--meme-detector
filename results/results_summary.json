@@ -1,0 +1,74 @@
+{
+  "early_bilstm_vgg16": {
+    "label": "Early Fusion",
+    "acc": 0.4864864864864865,
+    "precision": 0.42016806722689076,
+    "recall": 0.8771929824561403,
+    "f1": 0.5681818181818182,
+    "auc": 0.5500289184499711,
+    "confusion_matrix": [
+      [
+        22,
+        69
+      ],
+      [
+        7,
+        50
+      ]
+    ]
+  },
+  "cross_attention_bilstm_vgg16": {
+    "label": "Cross-Attention",
+    "acc": 0.41216216216216217,
+    "precision": 0.391304347826087,
+    "recall": 0.9473684210526315,
+    "f1": 0.5538461538461539,
+    "auc": 0.5519568151147098,
+    "confusion_matrix": [
+      [
+        7,
+        84
+      ],
+      [
+        3,
+        54
+      ]
+    ]
+  },
+  "gated_bilstm_vgg16": {
+    "label": "Gated Fusion",
+    "acc": 0.43243243243243246,
+    "precision": 0.4,
+    "recall": 0.9473684210526315,
+    "f1": 0.5625,
+    "auc": 0.5540775014459226,
+    "confusion_matrix": [
+      [
+        10,
+        81
+      ],
+      [
+        3,
+        54
+      ]
+    ]
+  },
+  "bilinear_bilstm_vgg16": {
+    "label": "Bilinear Fusion",
+    "acc": 0.581081081081081,
+    "precision": 0.47058823529411764,
+    "recall": 0.7017543859649122,
+    "f1": 0.5633802816901409,
+    "auc": 0.6011181800655485,
+    "confusion_matrix": [
+      [
+        46,
+        45
+      ],
+      [
+        17,
+        40
+      ]
+    ]
+  }
+}

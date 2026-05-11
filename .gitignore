@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (large files)
+data/
+!data/.gitkeep
+glove.6B/
+*.zip
+
+# Model checkpoints & exports
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Outputs
+# We allow results/ images for documentation
+!results/*.png
+!results/*.jpg
+!results/*.json
+!web/ui_template.html
+
+# Logs
+*.log
+backend.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend
+# (Old paths removed)
+
